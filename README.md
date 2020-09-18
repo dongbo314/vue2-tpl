@@ -1,24 +1,18 @@
-# vue2-cli1
+# Qzr's vue2-cli
 
-## Project setup
-```
-yarn install
-```
+基于vuecli 4.5.6
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 功能
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### 1. postcss-pxtorem + lib-flexible 自适应rem
 
-### Lints and fixes files
-```
-yarn lint
-```
+.postcssre.js文件中配置设计图尺寸
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* postcss-pxtorem: 自动转化px为rem
+* lib-flexible: 自动更改根font-size
+
+### 2. eslint自动美化代码
+
+.eslintrc.js文件进行配置
+
+### 3. 配置共用stylus
