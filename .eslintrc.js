@@ -18,8 +18,8 @@ module.exports = {
   rules: {
     // vue eslint规则 https://eslint.vuejs.org/rules/
 
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    // 'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    // 'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 
     // ===================vue start===================
     'vue/html-closing-bracket-newline': [ // 在标签的右括号之前要求或禁止换行
@@ -48,41 +48,41 @@ module.exports = {
       'ignores': [],  // 元素名称的配置可忽略换行符样式。默认["pre", "textarea", ...INLINE_ELEMENTS]
       'allowEmptyLines': false  // 如果为true，则允许内容周围有空行。如果要禁止多个空行，请组合使用no-multiple-empty-lines。默认false
     }],
-    "vue/order-in-components": ["error", {  // 强制组件中的属性顺序
-      "order": [
-        "el",
-        "name",
-        "key",
-        "parent",
-        "functional",
-        ["delimiters", "comments"],
-        ["components", "directives", "filters"],
-        "extends",
-        "mixins",
-        ["provide", "inject"],
-        "ROUTER_GUARDS",
-        "layout",
-        "middleware",
-        "validate",
-        "scrollToTop",
-        "transition",
-        "loading",
-        "inheritAttrs",
-        "model",
-        ["props", "propsData"],
-        "emits",
-        "setup",
-        "asyncData",
-        "data",
-        "fetch",
-        "head",
-        "computed",
-        "watch",
-        "watchQuery",
-        "methods",
-        "LIFECYCLE_HOOKS",
-        ["template", "render"],
-        "renderError"
+    'vue/order-in-components': ['error', {  // 强制组件中的属性顺序
+      'order': [
+        'el',
+        'name',
+        'key',
+        'parent',
+        'functional',
+        ['delimiters', 'comments'],
+        ['components', 'directives', 'filters'],
+        'extends',
+        'mixins',
+        ['provide', 'inject'],
+        'ROUTER_GUARDS',
+        'layout',
+        'middleware',
+        'validate',
+        'scrollToTop',
+        'transition',
+        'loading',
+        'inheritAttrs',
+        'model',
+        ['props', 'propsData'],
+        'emits',
+        'setup',
+        'asyncData',
+        'data',
+        'fetch',
+        'head',
+        'computed',
+        'watch',
+        'watchQuery',
+        'methods',
+        'LIFECYCLE_HOOKS',
+        ['template', 'render'],
+        'renderError'
       ]
     }],
     // ===================vue end===================
