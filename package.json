@@ -1,7 +1,8 @@
 {
-  "name": "@qzr/vue2-cli",
-  "version": "0.0.1",
+  "name": "@constq/vue2-cli",
+  "version": "1.0.0",
   "private": false,
+  "description": "基于vuecli 4.5.6封装的vue脚手架",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
