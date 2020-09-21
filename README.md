@@ -1,4 +1,4 @@
-# Qzr's vue2-cli
+# Qzr's vue2-tpl
 
 基于 vuecli 4.5.6
 
