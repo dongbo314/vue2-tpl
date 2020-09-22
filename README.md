@@ -19,6 +19,18 @@
 
 vue.config.js 中 style-resources-loader 进行配置
 
+### 4. 配置api
+
+在/api/modules文件夹下进行配置 将会自动挂载到this.$api下
+
+### 5. 配置mock
+
+在/mock/templates下进行配置返回值
+
+### 6. 配置axios
+
+在/common/axios里配置axios拦截器
+
 ## 通用代码块
 
 1. router/guard
