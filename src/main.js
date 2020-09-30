@@ -3,7 +3,7 @@
  * @Description  : main
  * @Autor        : Qzr(z5021996@vip.qq.com)
  * @LastEditors  : Qzr(z5021996@vip.qq.com)
- * @LastEditTime : 2020-09-22 16:03:42
+ * @LastEditTime : 2020-09-30 17:28:50
  */
 
 
@@ -11,14 +11,15 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import api from './api'
+import plugin from './plugin/index'
 
 import 'amfe-flexible'
 import './mock'
+import './common/context/components'
 
 Vue.config.productionTip = false
 
-Vue.prototype.$api = api
+Vue.use(plugin)
 
 new Vue({
   router,

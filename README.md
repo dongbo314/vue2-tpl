@@ -31,6 +31,20 @@ vue.config.js 中 style-resources-loader 进行配置
 
 在/common/axios里配置axios拦截器
 
+### 7. vue全局配置
+
+/plugin/index.js 配置vue全局设置
+/plugin/mixin 配置全局mixin
+/plugin/directive 配置全局指令
+
+### 8. 全局自动引入
+
+配置文件 common/context/
+
+自动引入components/common/ 下的组件为全局组件
+
+自动引入router /router/modules/ 进行配置
+
 ## 通用代码块
 
 1. router/guard
